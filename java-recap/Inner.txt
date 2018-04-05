@@ -1,0 +1,19 @@
+An inner class is a class that is defined inside another class.
+
+Inner class is a safety mechanism.
+
+Inner class is hidden from other classes in its outer class.
+
+An object of inner class cannot be created in other classes.
+
+An object to inner class can be created only in its outer class.
+
+Inner class can access the members of outer class directly.
+
+Inner class object & outer class object are created in seperate memory locations.
+
+Inner class object contains an additional invisible field 'this$0' that refers to its outer class object.
+
+
+When same names are used, we can refer to outer class member in the inner class, as:
+outerclassname.this.member;
